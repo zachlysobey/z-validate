@@ -7,3 +7,9 @@
 -   [ ] delete this TODO section (_use GitHub issues, or something intead_)
 
 ## Available npm scripts
+
+## Contributing
+
+See the [contributing guide][contributing]
+
+[contributing]: ./.github/CONTRIBUTING.md
