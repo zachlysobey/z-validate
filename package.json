@@ -1,7 +1,9 @@
 {
   "name": "change-me",
   "version": "0.0.1",
-  "scripts": {},
+  "scripts": {
+    "start": "node src/main.js"
+  },
   "author": "Zach Lysobey <zach@lysobey.com> (http://zach.lysobey.com)",
   "license": "ISC"
 }
