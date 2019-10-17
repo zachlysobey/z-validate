@@ -2,8 +2,12 @@
   "name": "change-me",
   "version": "0.0.1",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "prettier": "prettier --write **/*.{js,json,md,yml,yaml}"
   },
   "author": "Zach Lysobey <zach@lysobey.com> (http://zach.lysobey.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
 }

@@ -15,6 +15,7 @@ npm start
 ## Available npm scripts
 
 -   `npm start`: runs the app
+-   `npm run prettier`: formats this project's code with 'prettier'
 
 ## Contributing
 
