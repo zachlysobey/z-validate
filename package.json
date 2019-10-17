@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node src/main.js",
+    "precommit": "npm test && lint-staged",
     "prettier": "prettier --write **/*.{js,json,md,yml,yaml}"
   },
   "author": "Zach Lysobey <zach@lysobey.com> (http://zach.lysobey.com)",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2"
   }
 }
