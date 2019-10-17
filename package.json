@@ -2,6 +2,7 @@
   "name": "change-me",
   "version": "0.0.1",
   "scripts": {
+    "test": "mocha",
     "start": "node src/main.js",
     "precommit": "npm test && lint-staged",
     "prettier": "prettier --write **/*.{js,json,md,yml,yaml}"
@@ -11,6 +12,7 @@
   "devDependencies": {
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
+    "mocha": "^6.2.1",
     "prettier": "^1.18.2"
   }
 }
