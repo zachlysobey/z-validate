@@ -11,6 +11,7 @@
   "author": "Zach Lysobey <zach@lysobey.com> (http://zach.lysobey.com)",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.2.3",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
