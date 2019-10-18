@@ -1,10 +1,13 @@
 {
   "name": "change-me",
   "version": "0.0.1",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "test": "mocha",
     "test:watch": "npm run test -- --watch",
-    "start": "node src/main.js",
+    "start": "npm run build",
+    "build": "tsc",
     "precommit": "npm test && lint-staged",
     "prettier": "prettier --write **/*.{js,json,md,yml,yaml}"
   },
