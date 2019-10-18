@@ -1,2 +1,1 @@
-const helloWho: string = 'World'
-console.log(`Hello, ${helloWho}`)
+export { string } from './predicates/string'

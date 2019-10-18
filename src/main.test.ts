@@ -1,11 +1,22 @@
 import { expect } from './test-setup'
 
-describe('main.ts', function() {
-    it('is going to need some tests', function() {
-        expect(1 + 1).to.equal(2)
+import * as mainExports from './main'
+
+describe('main.ts', function () {
+    const exportNames = Object.keys(mainExports)
+
+    const expectedExportCount = 1
+    it(`exports ${expectedExportCount} functions`, () => {
+        expect(exportNames.length).to.equal(expectedExportCount)
+        exportNames.forEach(name => {
+            expect(mainExports).to.respondTo(name)
+        })
     })
 
-    it('will need async tests too', async function() {
-        await expect(Promise.reject('test')).to.be.rejectedWith(/test/)
+    const expectedFunctions = [
+        'string',
+    ]
+    it('exports expected functions', function () {
+        expect(exportNames).to.deep.equal(expectedFunctions)
     })
 })
