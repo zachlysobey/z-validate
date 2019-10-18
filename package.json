@@ -1,5 +1,5 @@
 {
-  "name": "change-me",
+  "name": "z-validate",
   "version": "0.0.1",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
