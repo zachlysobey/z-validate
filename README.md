@@ -1,34 +1,27 @@
-# change-me
+# z-validate
 
-[![Actions Status](https://github.com/zachlysobey/z-starter/workflows/Node%20CI/badge.svg)](https://github.com/zachlysobey/z-starter/actions)
+[![Actions Status](https://github.com/zachlysobey/z-validate/workflows/Node%20CI/badge.svg)](https://github.com/zachlysobey/z-validate/actions)
 
-## TODO
-
--   [ ] change "name" in `package.json`
--   [ ] change the project name at [the top this README](#change-me)
--   [ ] update the "Action Status" badge svg url to point at the correct repo
--   [ ] change the project name in [the "Usage" section of this README](#usage)
--   [ ] delete this TODO section (_use GitHub issues, or something intead_)
+A simple (TypeScript) library with a set of predicates for simple type validation.
+Eventually, this will have higher-order predicates, and composable functions.
 
 ## Usage
+
+**NOTE**: This is still under construction, and very experimental. That is, not quite ready for use.
 
 ### Install the library
 
 ```
-npm install change-me
+npm install z-validate
 ```
 
 ### Import it
 
 ```
-import changeMe from change-me
+import * as validators from 'z-validate'
 ```
 
 ### Some examples
-
-```
-// add some examples here
-```
 
 ## Available npm scripts
 
