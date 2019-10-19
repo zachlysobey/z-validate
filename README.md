@@ -23,6 +23,16 @@ import * as validators from 'z-validate'
 
 ### Some examples
 
+```js
+string(1) // false
+
+number(1) // true
+
+string('abc') // true
+
+number('abc') // false
+```
+
 ## Available npm scripts
 
 -   `npm test`: runs the unit tests
