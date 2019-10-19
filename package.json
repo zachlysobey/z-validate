@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "test": "mocha",
+    "test:watch": "npm run test -- --watch",
     "start": "node src/main.js",
     "precommit": "npm test && lint-staged",
     "prettier": "prettier --write **/*.{js,json,md,yml,yaml}"
