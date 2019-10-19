@@ -9,7 +9,7 @@
     "start": "npm run build",
     "build": "tsc",
     "precommit": "npm test && lint-staged",
-    "prettier": "prettier --write **/*.{js,json,md,yml,yaml}"
+    "prettier": "prettier --write **/*.{ts,js,json,md,yml,yaml}"
   },
   "author": "Zach Lysobey <zach@lysobey.com> (http://zach.lysobey.com)",
   "license": "ISC",
