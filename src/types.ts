@@ -1,1 +1,4 @@
-export type Predicate = (...args: any[]) => boolean
+export type Predicate = {
+    (...args: any[]): boolean;
+    title: string;
+}
