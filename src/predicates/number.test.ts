@@ -25,8 +25,8 @@ describe('predicates/number', function () {
             expected: false,
         },
         {
-            description: '',
-            input: '""',
+            description: '""',
+            input: '',
             expected: false,
         },
         {
@@ -35,13 +35,13 @@ describe('predicates/number', function () {
             expected: false,
         },
         {
-            description: '123',
-            input: '"123"',
+            description: '"1337"',
+            input: '1337',
             expected: false,
         },
         {
-            description: '3',
-            input: 3,
+            description: '42',
+            input: 42,
             expected: true,
         },
     ]
